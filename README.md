@@ -1,48 +1,49 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Portfolio: setup and mobile version skeleton
 
-> Portfolio: setup and mobile version skeleton.
-
+For this repository, I've created html templates and styling files in order to built a responsive portfolio ,  which can help to easy explorate  profiles from differents devices.
 
 ## Built With
 
 - Html
 - Css
-- Technologies used
+- Git & Github
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://livedemo.com)
-
-
-## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
+[Live Demo Link](https://github.com/HSMathebula/Portfolio-setup-and-mobile-version-skeletonm)
 
 ### Install
 
+To get a local copy up and running follow these simple example steps.
+- Open terminal
+- Clone this project by the command: 
+
+$ git clone https://github.com/HSMathebula/Portfolio-setup-and-mobile-version-skeleton.git
+
+- Then go to the main folder using the next command:
+
+$ cd Portfolio-setup-and-mobile-version-skeleton.git
+
+- Finally, run diplay the index.html file in your local browser, or also, you can use Live Server in Visual Studio Code.
+
+### Prerequisites
+
+- IDE to edit and run the code (We use Visual Studio Code 🔥).
+- Git to versionning your work.
+
 ### Usage
 
-### Run tests
-
-### Deployment
-
-
+- For anyone who wants to practice html5 or/and css3
+- For anyone who wants to create his own portfolio.
 
 ## Authors
 
-👤 **Author1**
+👤 **Happen Mathebula**
 
 - GitHub: [@githubhandle](https://github.com/HSMathebula)
+- LinkedIn: [@TaherHaggui](https://www.linkedin.com/in/happen-mathebula-4b0438115/)
 
 ## 🤝 Contributing
 
@@ -56,10 +57,12 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Microverse
+- Hat tip to anyone whose code was used
 - Inspiration
-- Microverse coding partners
+- Microverse program
+- My standup team
+- My family's support
 
 ## 📝 License
 
-This project is [MIT](./MIT.md) licensed.
+This project is [MIT](MIT.md) licensed.
