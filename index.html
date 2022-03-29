@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,6 +8,7 @@
     <title>Portfolio</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
     <header>
         <div class="header-img"></div>
@@ -18,7 +20,8 @@
     <section class="headline-section">
         <div class="container">
             <h1 class="tittle">Charlie Giorgania</h1>
-            <p class="para">Hello! I am a software developer! I can help you build a product, feature or website. Taka a look of my works.
+            <p class="para">Hello! I am a software developer! I can help you build a product, feature or website. Taka a
+                look of my works.
                 If you like what you see and have a project you need coded, don't hesitate and contact me.
             </p>
             <button class="cta">Start collaboration</button>
@@ -32,10 +35,10 @@
         <h1 class="tittle t2">Projects</h1>
 
         <article class="project-container">
-            
+
             <img class="img" src="./images/Rectangle1.png" alt="Project name goes here">
             <h4 class="project-tittle">Project name goes here</h4>
-            
+
             <div class="project-skills container">
                 <ul class="list">
                     <li class="project-link">HTML/CSS</li>
@@ -43,14 +46,15 @@
                     <li class="project-link">JavaScript</li>
                 </ul>
             </div>
-            <button class="project-button">See this project<span><img src="./images/ic_arrow_right.png" alt=""></span></button>
+            <button class="project-button">See this project<span><img src="./images/ic_arrow_right.png"
+                        alt=""></span></button>
         </article>
 
         <article class="project-container">
-            
+
             <img class="img" src="./images/Rectangle2.png" alt="Project name goes here">
             <h4 class="project-tittle">Project name goes here</h4>
-            
+
             <div class="project-skills container">
                 <ul class="list">
                     <li class="project-link">HTML/CSS</li>
@@ -58,14 +62,15 @@
                     <li class="project-link">JavaScript</li>
                 </ul>
             </div>
-            <button class="project-button">See this project<span><img src="./images/ic_arrow_right.png" alt=""></span></button>
+            <button class="project-button">See this project<span><img src="./images/ic_arrow_right.png"
+                        alt=""></span></button>
         </article>
 
         <article class="project-container">
 
             <img class="img" src="./images/Rectangle3.png" alt="Project name goes here">
             <h4 class="project-tittle">Project name goes here</h4>
-            
+
             <div class="project-skills container">
                 <ul class="list">
                     <li class="project-link">HTML/CSS</li>
@@ -73,14 +78,15 @@
                     <li class="project-link">JavaScript</li>
                 </ul>
             </div>
-            <button class="project-button">See this project<span><img src="./images/ic_arrow_right.png" alt=""></span></button>
+            <button class="project-button">See this project<span><img src="./images/ic_arrow_right.png"
+                        alt=""></span></button>
         </article>
 
         <article class="project-container">
 
             <img class="img" src="./images/Rectangle4.png" alt="Project name goes here">
             <h4 class="project-tittle">Project name goes here</h4>
-            
+
             <div class="project-skills container">
                 <ul class="list">
                     <li class="project-link">HTML/CSS</li>
@@ -88,36 +94,39 @@
                     <li class="project-link">JavaScript</li>
                 </ul>
             </div>
-            <button class="project-button">See this project<span><img src="./images/ic_arrow_right.png" alt=""></span></button>
+            <button class="project-button">See this project<span><img src="./images/ic_arrow_right.png"
+                        alt=""></span></button>
         </article>
 
-        <article  class="project-container">
+        <article class="project-container">
 
             <img class="img" src="./images/Rectangle5.png" alt="Project name goes here">
             <h4 class="project-tittle">Project name goes here</h4>
-            
+
             <div class="project-skills containe">
                 <button class="project-link">HTML/CSS</button>
                 <button class="project-link">Ruby on Rails</button>
                 <button class="project-link">JavaScript</button>
             </div>
-            <button class="project-button">See this project<span><img src="./images/ic_arrow_right.png" alt=""></span></button>
+            <button class="project-button">See this project<span><img src="./images/ic_arrow_right.png"
+                        alt=""></span></button>
         </article>
 
         <article class="project-container">
 
             <img class="img" src="./images/Rectangle6.png" alt="Project name goes here">
             <h4 class="project-tittle">Project name goes here</h4>
-            
+
             <div class="project-skills containe">
                 <button class="project-link">HTML/CSS</button>
                 <button class="project-link">Ruby on Rails</button>
                 <button class="project-link">JavaScript</button>
             </div>
-            <button class="project-button">See this project<span><img src="./images/ic_arrow_right.png" alt=""></span></button>
+            <button class="project-button">See this project<span><img src="./images/ic_arrow_right.png"
+                        alt=""></span></button>
         </article>
     </section>
-    
+
     <section class="about-section container">
 
         <h1 class="tittle">About</h1>
@@ -131,7 +140,7 @@
             <img class="download" src="./images/ic_download.svg" alt="">
         </button>
 
-         <div class="profile">
+        <div class="profile">
             <article class="languages back-groung">
                 <h4 class="profile-tittle">Languages</h4>
                 <ul class="profile-list">
@@ -182,14 +191,16 @@
             <form class="form-input " action="">
                 <div id="floatContainer" class="float-container">
                     <label for="name">Your name</label>
-                    <input type="text" id="name" name="name">
+                    <input type="text" id="name" name="name" required maxlength="30">
                 </div>
                 <div id="floatContainer" class="float-container">
                     <label for="email">Your emial</label>
-                    <input type="email" id="email" name="email">
+                    <input type="email" id="email" name="email" required
+                        pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,6}$">
                 </div>
                 <div id="floatContainer" class="float-container">
-                    <textarea name="message" id="message" placeholder="Enter your message here" cols="30" rows="10"></textarea>
+                    <textarea name="message" id="message" placeholder="Enter your message here" cols="30" rows="10"
+                        required maxlength="500"></textarea>
                 </div>
                 <button class="cta">Start collaboration</button>
             </form>
@@ -213,4 +224,5 @@
         </div>
     </footer>
 </body>
+
 </html>
