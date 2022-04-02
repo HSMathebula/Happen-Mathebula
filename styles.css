@@ -413,6 +413,10 @@ body {
     font-family: poppins, sans-serif;
   }
 
+  a:hover {
+    font-weight: bold;
+  }
+
   .list {
     padding-right: 27px;
     margin-left: 30px;
