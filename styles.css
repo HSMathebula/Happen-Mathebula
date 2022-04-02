@@ -11,8 +11,6 @@ body {
     display: none;
   }
 
-
-
   .bg-img4 {
     display: none;
   }
@@ -978,7 +976,7 @@ body {
     align-items: stretch;
   }
 
-  .wrapper>div {
+  .wrapper > div {
     height: 558px;
   }
 
@@ -1594,7 +1592,7 @@ body {
     align-items: stretch;
   }
 
-  .wrapper>div {
+  .wrapper > div {
     height: 364px;
   }
 
