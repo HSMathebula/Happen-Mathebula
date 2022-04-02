@@ -11,6 +11,8 @@ body {
     display: none;
   }
 
+
+
   .bg-img4 {
     display: none;
   }
@@ -411,6 +413,10 @@ body {
   .nav-list {
     display: flex;
     font-family: poppins, sans-serif;
+  }
+
+  a:hover {
+    
   }
 
   .list {
