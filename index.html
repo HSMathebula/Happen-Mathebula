@@ -7,18 +7,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link rel="stylesheet" href="styles.css">
+    
 </head>
 <body>
 
     <header>
         <div class="header-img"></div>
         <nav>
-            <button type="submit" class="mobile-menu"><img src="images/ic_menu.svg" alt="Open Navigation"></button>
+            <img class="mobile-menu" id="mobileMenu" src="images/ic_menu.svg" alt="Open Navigation">
             <div class="nav-list">
-                <a class="current" href="#">Hello</a>
-                <a href="#">Portfolio</a>
-                <a href="#">About</a>
-                <a class="contact" href="#">Contact</a>
+                <img class="mobile-menu-x" id="mobile-exit" src="images/UnionX.png" alt="Open Navigation">
+                <div class="img-menu-1"></div>
+                <div class="img-menu-2"></div>
+                <div class="m-list">
+                    <a class="menu-list current" href="index.html">Hello</a>
+                    <a class="menu-list" href="#projects-id">Portfolio</a>
+                    <a class="menu-list" href="#about-id">About</a>
+                    <a class="menu-list r-space contact" href="#form-id">Contact</a>
+                </div>
             </div>
         </nav>
     </header>
@@ -43,7 +49,7 @@
 
     <div class="header-img2"></div>
 
-    <section class="projects wrapper">
+    <section class="projects wrapper" id="projects-id">
 
         <div class="wrap1">
             <div class="dots-container">
@@ -208,7 +214,7 @@
         </div>
     </section>
 
-    <section class="about-section container">
+    <section class="about-section container" id="about-id">
 
         <div class="about-cta">
             <h2 class="tittle">About</h2>
@@ -266,7 +272,7 @@
         </div>
     </section>
 
-    <section class="form-section">
+    <section class="form-section" id="form-id">
         <div class="header-img"></div>
         <div class="f-img1"></div>
         <div class="f-img2"></div>
@@ -315,6 +321,8 @@
             </div>
         </div>
     </footer>
+
+    <script src="index.js"></script>
 </body>
 
 </html>
