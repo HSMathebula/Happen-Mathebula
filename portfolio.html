@@ -1,0 +1,82 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+</head>
+<body>
+    <section class="mian-container" id="mian-container">
+        <div class="main-div">
+
+            <div class="top-div">
+                <button data-close-button class="close-button">&times;</button>
+                <div class="title-list">
+                    <h2 class="title">Project name goes here</h2>
+                    <ul class="skills">
+                        <li class="skills-list">HTML/CSS</li>
+                        <li class="skills-list">Ruby on Rails</li>
+                        <li class="skills-list">JavaScript</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="md-div">
+                <div class="container">
+                    <div class="mySlides">
+                      <img src="./images/slipeimg.png" style="width:100%">
+                    </div>
+                  
+                    <div class="mySlides">
+                      <img src="./images/slipeimg.png" style="width:100%">
+                    </div>
+                  
+                    <div class="mySlides">
+                      <img src="./images/slipeimg.png" style="width:100%">
+                    </div>
+                    <div class="mySlides"> 
+                      <img src="./images/slipeimg.png" style="width:100%">
+                    </div>
+                      
+                    <a class="prev" onclick="plusSlides(-1)"><img src="./images/Vector4.png" alt=""></a>
+                    <a class="next" onclick="plusSlides(1)"><img src="./images/Vector5.png" alt=""></a>
+                  
+                    <div class="row">
+                      <div class="column">
+                        <img class="demo cursor" src="./images/slipeimg.png" style="width:100%" onclick="currentSlide(1)" alt="">
+                      </div>
+                      <div class="column">
+                        <img class="demo cursor" src="./images/slipeimg.png" style="width:100%" onclick="currentSlide(2)" alt="">
+                      </div>
+                      <div class="column">
+                        <img class="demo cursor" src="./images/slipeimg.png" style="width:100%" onclick="currentSlide(3)" alt="">
+                      </div>
+                      <div class="column">
+                        <img class="demo cursor" src="./images/slipeimg.png" style="width:100%" onclick="currentSlide(4)" alt="">
+                      </div>
+                    </div>
+                </div>
+
+                <div class="bottom-div">
+                    <p class="p-tag">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi Ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, 
+                    </p>
+                    <p class="p-tag">
+                        consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.
+                    </p>
+                    <div class="cta-1">
+                        <a href="" class="see-live">See live <img src="./images/ic_link.png" alt="See live"></a>
+                        <a href="" class="source-code">Source code <img src="./images/ic_github_blue.png" alt="source-code"></a>
+                    </div>
+                    <div class="nxt-prv-cta">
+                        <a href="" class="prv"><img src="./images/ic_arrow_left.png" alt="">Previous project</a>
+                        <a href="" class="nxt">next-project<img src="./images/ic_arrow_right_blue.png" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="portfolio.js"></script>
+</body>
+</html>
