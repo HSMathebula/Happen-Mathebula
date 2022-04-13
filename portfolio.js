@@ -1,4 +1,3 @@
-//Popup
 const projects = [
   {
     id: 'card1',
