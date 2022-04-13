@@ -8,6 +8,8 @@ const modal = document.getElementById('myModal');
 
 const btns = document.querySelectorAll('.myBtn');
 
+const span = document.querySelector('.close');
+
 mobileBtn.addEventListener('click', () => {
   nav.classList.add('menu-btn');
 });
@@ -25,6 +27,10 @@ nav.addEventListener('click', () => {
     modal.style.display = 'block';
   };
 });
+
+span.onclick = function e() {
+  modal.style.display = 'none';
+};
 
 window.onclick = function e(event) {
   if (event.target === modal) {
