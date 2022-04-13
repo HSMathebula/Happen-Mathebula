@@ -7,9 +7,14 @@ body {
 }
 
 @media only screen and (min-width: 320px) {
-  nav {
-    z-index: 999;
+  .mySlides img {
+    width: 100%;
   }
+
+  .demo {
+    width: 100%;
+  }
+
   .msg-label {
     display: none;
   }
@@ -137,6 +142,7 @@ body {
     margin-top: 19px;
     position: fixed;
     right: 16px;
+    z-index: 999;
   }
 
   .headline-section {
