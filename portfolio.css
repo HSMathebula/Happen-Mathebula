@@ -149,6 +149,16 @@ body {
     padding-right: 20px;
   }
 
+  a.next > img {
+    width: 50%;
+    margin-top: 95px;
+  }
+
+  a.prev > img {
+    width: 50%;
+    margin-top: 95px;
+  }
+
   .cta-1 a.source-code img {
     padding-left: 25px;
   }
@@ -188,16 +198,6 @@ body {
     background: #fff;
     padding: 20px;
   }
-
-  a.next > img {
-        width: 50%;
-        margin-top: 95px;
-    }
-
-    a.prev > img {
-        width: 50%;
-        margin-top: 95px;
-    }
 }
 
 @media only screen and (min-width: 768px) {

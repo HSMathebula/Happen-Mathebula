@@ -100,7 +100,7 @@ const projects = [
     technologyList: ['Html', 'Ruby on Rails', 'Javascript'],
     firstButton: 'See Live',
     secondButton: 'See Source',
-  }
+  },
 ];
 
 const section = document.querySelector('.main-container');
