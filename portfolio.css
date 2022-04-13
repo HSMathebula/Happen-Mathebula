@@ -17,6 +17,11 @@ body {
     margin-bottom: 23px;
   }
 
+  .bg {
+    background: #fff;
+    padding: 20px;
+  }
+
   .skills {
     list-style: none;
     display: flex;
@@ -63,7 +68,7 @@ body {
   }
 
   .mySlides {
-    display: none;
+    display: block;
   }
 
   .cursor {
@@ -172,7 +177,7 @@ body {
   }
 
   .modal {
-    display: none;
+    display: block;
     position: fixed;
     z-index: 999;
     left: 0;
@@ -184,28 +189,21 @@ body {
     padding: 20px;
   }
 
-  .modal-content {
-    position: fixed;
-    background-color: #fefefe;
-    width: 100%;
-  }
-
-  /* a.next > img {
-        width: 60%;
-        margin-top: 25px;
+  a.next > img {
+        width: 50%;
+        margin-top: 95px;
     }
 
     a.prev > img {
-        width: 60%;
-        margin-top: 25px;
-    } */
+        width: 50%;
+        margin-top: 95px;
+    }
 }
 
 @media only screen and (min-width: 768px) {
   .modal {
     background: #1a2236;
     padding: 70px;
-    top: 100px;
   }
 
   .main-div {
