@@ -35,6 +35,13 @@ function validation() {
     } else if (message.length < 5 || message === undefined) {
       event.preventDefault();
       alert.innerHTML = '* Text area should have at least 5 characters. form not sent.';
+
+    } else if (name.length < 1 || name === undefined) {
+      event.preventDefault();
+      alert.innerHTML = '* Make sure you fill your name. Form not sent.';
+    } else if (message.length > 50) {
+      event.preventDefault();
+      alert.innerHTML = '* exceeded maximum number of caracters (50). Form not sent';
     } else {
       form.submit();
     }
