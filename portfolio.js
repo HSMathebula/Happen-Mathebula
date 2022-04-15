@@ -116,7 +116,7 @@ projects.forEach((project) => {
     </ul>
 
     <div>
-      <img ${project.class} src="${project.image1}" alt="project img">
+      <img src="${project.image1}" alt="project img">
     </div>
       
     <div>

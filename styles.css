@@ -481,6 +481,16 @@ body {
   a:hover {
     font-weight: bold;
   }
+
+  .small {
+    margin-top: 50px;
+  }
+
+  #alert {
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    color: #d2403c;
+  }
 }
 
 @media only screen and (min-width: 414px) {
@@ -1002,7 +1012,7 @@ body {
   }
 
   .float-container input {
-    height: 60px;
+    height: 57px;
     padding-top: 0;
     padding-left: 20px;
   }
@@ -1652,7 +1662,7 @@ body {
   }
 
   .float-container input {
-    height: 60px;
+    height: 57px;
     padding-top: 0;
     padding-left: 20px;
   }
@@ -2298,7 +2308,7 @@ body {
   }
 
   .float-container input {
-    height: 60px;
+    height: 57px;
     padding-top: 0;
     padding-left: 20px;
   }
