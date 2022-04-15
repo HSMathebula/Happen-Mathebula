@@ -29,12 +29,6 @@ function validation() {
     if(name.length < 1 && name === undefined && email < 1 && email === undefined && email !== email.toLowerCase() && message.length < 5 && message === undefined) {
       event.preventDefault();
       alert.innerHTML = '* Make sure you fill all the input fields. form not sent.';
-    }else if (name.length < 1 || name === undefined) {
-      event.preventDefault();
-      alert.innerHTML = '* Make sure to fill your name. form not sent.';
-    } else if (email < 1 || email === undefined) {
-      event.preventDefault();
-      alert.innerHTML = '* Make sure you fill your email. form not sent.';
     } else if (email !== email.toLowerCase()) {
       event.preventDefault();
       alert.innerHTML = '* Make sure your email is in lower case. form not sent.';
