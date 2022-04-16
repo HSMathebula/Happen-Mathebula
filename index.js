@@ -19,7 +19,7 @@ nav.addEventListener('click', () => {
 // form
 function validation() {
   const form = document.getElementById('form');
-  const name = form.elements.name.value;
+  const name = form.elements.nname.value;
   const email = form.elements.email.value;
   const message = form.elements.message.value;
   const alert = document.getElementById('alert');
@@ -31,7 +31,7 @@ function validation() {
       && message.length < 5 && message === undefined) {
       event.preventDefault();
       alert.innerHTML = '* Make sure you fill all the input fields. form not sent.';
-    } else if (email !== email.toLowerCase()) {
+    } else (email !== email.toLowerCase()) {
       event.preventDefault();
       alert.innerHTML = '* Make sure your email is in lower case. form not sent.';
     } else if (message.length < 5 || message === undefined) {
