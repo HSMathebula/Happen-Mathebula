@@ -1,5 +1,3 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
-
 # Portfolio: App
 
 I've created HTML templates and styling files for this repository to build a responsive portfolio, which can help explore profiles from different devices easily.
