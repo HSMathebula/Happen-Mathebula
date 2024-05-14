@@ -2,13 +2,13 @@
 
 # Portfolio: App
 
-For this repository, I've created html templates and styling files in order to built a responsive portfolio ,  which can help to easy explorate  profiles from differents devices.
+I've created HTML templates and styling files for this repository to build a responsive portfolio, which can help explore profiles from different devices easily.
 
 ## Built With
 
 - Html
 - Css
-- Git & Github
+- Git & GitHub
 
 ## Live Demo (if available)
 
@@ -43,7 +43,7 @@ $ cd Portfolio-setup-and-mobile-version-skeleton.git
 👤 **Happen Mathebula**
 
 - GitHub: [@githubhandle](https://github.com/HSMathebula)
-- LinkedIn: [@TaherHaggui](https://www.linkedin.com/in/happen-mathebula-4b0438115/)
+- LinkedIn: [@happen-mathebula](https://www.linkedin.com/in/happen-mathebula-4b0438115/)
 
 ## 🤝 Contributing
 
